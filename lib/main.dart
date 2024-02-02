@@ -63,8 +63,9 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return FlutterLogin(
       logoTag: 'boxing_the_tag',
-
       logo: const AssetImage('images/logo_app_fi.png'),
+
+      // logo: const AssetImage('images/logo_app_fi.png'),
       onLogin: _authUser,
       onSignup: _signupUser,
       onSubmitAnimationCompleted: () {
